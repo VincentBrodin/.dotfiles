@@ -1,5 +1,6 @@
-font-family = JetBrainsMono Nerd Font Mono
-font-style = Medium
+font-family = FiraMono Nerd Font
+font-style = medium
 font-style-bold = Bold 
-font-size = 12
-theme = Kanagawa Wave
+font-size = 14
+theme = ferra
+# custom-shader = shaders/cursor_smear.glsl

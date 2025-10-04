@@ -3,27 +3,24 @@
 	font-size: 13px;
 	font-weight: bold;
 }
+
 window#waybar {
-	background: #1f1f28; 
-	color: #dcd7ba;      
+	background: #2b292d;
+	color: #ffa07a;
 }
 
 .modules-left,
 .modules-center,
 .modules-right {
-  margin: 0 30px;
+	margin: 0 30px;
 }
 
 #workspaces button {
 	padding: 0px;
 	border-radius: 0px;
+	color: #727169;
 }
 
 #workspaces button.active {
-	color: #c0a36e;
+	color: #ffa07a;
 }
-
-#workspaces button:hover {
-	background: #313244; 
-}
-

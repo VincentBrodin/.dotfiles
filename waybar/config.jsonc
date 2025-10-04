@@ -35,17 +35,17 @@
 	},
 
 	"cpu": {
-		"format": " CPU:{usage}%",
+		"format": " CPU:{usage}% |",
 		"tooltip": false
 	},
 
 	"temperature": {
 		"critical-threshold": 80,
-		"format": ":{temperatureC}°C |"
+		"format": " TEMP:{temperatureC}°C |"
 	},
 
 	"memory": {
-		"format": " MEM:{used}GB/{total}GB |"
+		"format": " MEM:{percentage}% |"
 	},
 
 
@@ -59,7 +59,8 @@
 	},
 
 	"clock": { 
-		"format": " {:%H:%M:%S} ]", 
+		"format": " {:%H:%M:%OS} ]", 
+		"interval": 1,
 	},
 
 }
