@@ -1,6 +1,7 @@
 {
 	"layer": "top",
 	"position": "bottom",
+	"margin": "0 10 10 10",
 	"modules-left": [
 		"hyprland/workspaces",
 		"hyprland/mode"
@@ -35,21 +36,21 @@
 		"format-disconnected": "[no network"
 	},
 	"cpu": {
-		"format": " CPU:{usage}% |",
+		"format": " cpu:{usage}% |",
 		"tooltip": false
 	},
 	"temperature": {
 		"critical-threshold": 80,
-		"format": " TEMP:{temperatureC}°C |"
+		"format": " temp:{temperatureC}°C |"
 	},
 	"memory": {
-		"format": " MEM:{percentage}% |"
+		"format": " mem:{percentage}% |"
 	},
 	"pulseaudio": {
-		"format": " VOL:{volume}% |",
+		"format": " vol:{volume}% |",
 	},
 	"battery": {
-		"format": " BAT:{capacity}% |",
+		"format": " bat:{capacity}% |",
 	},
 	"clock": {
 		"format": " {:%H:%M:%OS} ]",

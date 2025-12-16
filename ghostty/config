@@ -1,6 +1,8 @@
-font-family = FiraMono Nerd Font
-font-style = medium
+font-family = MonaspiceNe Nerd Font
+font-style = Medium
 font-style-bold = Bold 
 font-size = 20
-theme = Zenburned
-# custom-shader = shaders/cursor_smear.glsl
+theme = Rose Pine Moon
+background-opacity = 0.9
+adjust-cell-height = 1
+adjust-cell-width = 0

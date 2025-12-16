@@ -1,12 +1,18 @@
 * {
-	font-family: "JetBrains Mono", monospace;
+	font-family: "MonaspiceNe Nerd Font", monospace;
 	font-size: 13px;
 	font-weight: bold;
 }
 
+window#waybar>box {
+	padding: 5px;
+}
+
 window#waybar {
-	background: #3f3f3f;
-	color: #f0dfaf;
+	border: 2px solid #eb6f92;
+	border-radius: 10px;
+	background: rgba(35, 33, 54, 0.9);
+	color: #e0def4;
 }
 
 .modules-left,
@@ -18,9 +24,9 @@ window#waybar {
 #workspaces button {
 	padding: 0px;
 	border-radius: 0px;
-	color: #727169;
+	color: #e0def4;
 }
 
 #workspaces button.active {
-	color: #f0dfaf;
+	color: #eb6f92;
 }
