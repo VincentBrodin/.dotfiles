@@ -28,7 +28,7 @@ normal = "block"
 select = "underline"
 
 [editor.inline-diagnostics]
-other-lines = "hint"
+# other-lines = "error"
 cursor-line = "hint"
 
 [editor.lsp]
