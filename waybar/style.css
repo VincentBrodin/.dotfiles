@@ -1,6 +1,6 @@
 * {
 	font-family: "MonaspiceNe Nerd Font", monospace;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -9,9 +9,10 @@ window#waybar>box {
 }
 
 window#waybar {
-	border: 2px solid #eb6f92;
-	border-radius: 10px;
-	background: rgba(25, 23, 36, 0.9);
+	/* border: 2px solid #eb6f92; */
+	/* border-radius: 5px; */
+	background: rgba(25, 23, 36, 1);
+	/* background: rgba(0, 0, 0, 0); */
 	color: #e0def4;
 }
 
@@ -28,5 +29,6 @@ window#waybar {
 }
 
 #workspaces button.active {
-	color: #eb6f92;
+	/* color: #eb6f92; */
+	color: #31748f;
 }

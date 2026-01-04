@@ -1,13 +1,15 @@
 {
 	"layer": "top",
 	"position": "bottom",
-	"margin": "0 10 10 10",
+	// "margin": "0 10 10 10",
+	"margin": "0 0 0 0",
 	"modules-left": [
 		"hyprland/workspaces",
 		"hyprland/mode"
 	],
 	"modules-center": [
-		"custom/player"
+		// "custom/player"
+		"clock"
 	],
 	"modules-right": [
 		"network",
@@ -15,8 +17,8 @@
 		"temperature",
 		"memory",
 		"pulseaudio",
-		"battery",
-		"clock"
+		"battery"
+		// "clock"
 	],
 	"hyprland/workspaces": {
 		"format": "[{icon}]",
@@ -47,13 +49,13 @@
 		"format": " mem:{percentage}% |"
 	},
 	"pulseaudio": {
-		"format": " vol:{volume}% |",
+		"format": " vol:{volume}% |"
 	},
 	"battery": {
-		"format": " bat:{capacity}% |",
+		"format": " bat:{capacity}% ]"
 	},
 	"clock": {
-		"format": " {:%H:%M:%OS} ]",
-		"interval": 1,
-	},
+		"format": "[ {0:%H:%M:%OS} | {0:%b/%m %d}]",
+		"interval": 1
+	}
 }
