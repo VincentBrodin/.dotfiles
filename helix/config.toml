@@ -1,4 +1,4 @@
-theme = "iceberg-dark"
+theme = "everforest_dark"
 
 [editor]
 bufferline = "always"
